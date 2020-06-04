@@ -1,0 +1,65 @@
+12:05:48,455 DEBUG InternalLoggerFactory:53 - Using Log4J as the default logging framework
+12:05:48,467 DEBUG ResourceLeakDetector:130 - -Dio.netty.leakDetection.level: simple
+12:05:48,471 DEBUG ResourceLeakDetector:131 - -Dio.netty.leakDetection.targetRecords: 4
+12:05:48,480 DEBUG ResourceLeakDetectorFactory:195 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@21ba0741
+12:05:48,517 DEBUG PlatformDependent:1003 - Platform: Windows
+12:05:48,523 DEBUG PlatformDependent0:396 - -Dio.netty.noUnsafe: false
+12:05:48,524 DEBUG PlatformDependent0:852 - Java version: 8
+12:05:48,526 DEBUG PlatformDependent0:121 - sun.misc.Unsafe.theUnsafe: available
+12:05:48,528 DEBUG PlatformDependent0:145 - sun.misc.Unsafe.copyMemory: available
+12:05:48,529 DEBUG PlatformDependent0:183 - java.nio.Buffer.address: available
+12:05:48,530 DEBUG PlatformDependent0:244 - direct buffer constructor: available
+12:05:48,531 DEBUG PlatformDependent0:314 - java.nio.Bits.unaligned: available, true
+12:05:48,532 DEBUG PlatformDependent0:379 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+12:05:48,532 DEBUG PlatformDependent0:386 - java.nio.DirectByteBuffer.<init>(long, int): available
+12:05:48,532 DEBUG PlatformDependent:1046 - sun.misc.Unsafe: available
+12:05:48,533 DEBUG PlatformDependent:1165 - -Dio.netty.tmpdir: C:\Users\User\AppData\Local\Temp (java.io.tmpdir)
+12:05:48,534 DEBUG PlatformDependent:1244 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+12:05:48,538 DEBUG PlatformDependent:177 - -Dio.netty.maxDirectMemory: 1888485376 bytes
+12:05:48,538 DEBUG PlatformDependent:184 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+12:05:48,538 DEBUG CleanerJava6:92 - java.nio.ByteBuffer.cleaner(): available
+12:05:48,538 DEBUG PlatformDependent:204 - -Dio.netty.noPreferDirect: false
+12:05:48,563 DEBUG PlatformDependent:907 - org.jctools-core.MpscChunkedArrayQueue: available
+12:05:49,335 DEBUG JdkSslContext:96 - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+12:05:49,335 DEBUG JdkSslContext:97 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA]
+12:05:49,380 DEBUG InternalThreadLocalMap:56 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+12:05:49,381 DEBUG InternalThreadLocalMap:59 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+12:05:49,396 DEBUG MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 16
+12:05:49,424 DEBUG NioEventLoop:106 - -Dio.netty.noKeySetOptimization: false
+12:05:49,424 DEBUG NioEventLoop:107 - -Dio.netty.selectorAutoRebuildThreshold: 512
+12:05:49,508 DEBUG PooledByteBufAllocator:156 - -Dio.netty.allocator.numHeapArenas: 16
+12:05:49,508 DEBUG PooledByteBufAllocator:157 - -Dio.netty.allocator.numDirectArenas: 16
+12:05:49,508 DEBUG PooledByteBufAllocator:159 - -Dio.netty.allocator.pageSize: 8192
+12:05:49,508 DEBUG PooledByteBufAllocator:164 - -Dio.netty.allocator.maxOrder: 11
+12:05:49,508 DEBUG PooledByteBufAllocator:168 - -Dio.netty.allocator.chunkSize: 16777216
+12:05:49,508 DEBUG PooledByteBufAllocator:169 - -Dio.netty.allocator.tinyCacheSize: 512
+12:05:49,508 DEBUG PooledByteBufAllocator:170 - -Dio.netty.allocator.smallCacheSize: 256
+12:05:49,508 DEBUG PooledByteBufAllocator:171 - -Dio.netty.allocator.normalCacheSize: 64
+12:05:49,508 DEBUG PooledByteBufAllocator:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+12:05:49,508 DEBUG PooledByteBufAllocator:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+12:05:49,512 DEBUG PooledByteBufAllocator:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+12:05:49,512 DEBUG PooledByteBufAllocator:175 - -Dio.netty.allocator.useCacheForAllThreads: true
+12:05:49,512 DEBUG PooledByteBufAllocator:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+12:05:49,533 DEBUG ByteBufUtil:86 - -Dio.netty.allocator.type: pooled
+12:05:49,533 DEBUG ByteBufUtil:95 - -Dio.netty.threadLocalDirectBufferSize: 0
+12:05:49,533 DEBUG ByteBufUtil:98 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+12:05:50,834 DEBUG DefaultChannelId:79 - -Dio.netty.processId: 9288 (auto-detected)
+12:05:50,839 DEBUG NetUtil:139 - -Djava.net.preferIPv4Stack: false
+12:05:50,839 DEBUG NetUtil:140 - -Djava.net.preferIPv6Addresses: false
+12:05:51,157 DEBUG NetUtil:224 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+12:05:51,159 DEBUG NetUtil:289 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+12:05:51,500 DEBUG DefaultChannelId:101 - -Dio.netty.machineId: 30:d1:6b:ff:fe:fb:c1:4b (auto-detected)
+12:05:51,609 DEBUG AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+12:05:51,609 DEBUG AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+12:05:51,609 DEBUG ResourceLeakDetectorFactory:195 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@49a238
+12:05:51,671 DEBUG Recycler:97 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+12:05:51,671 DEBUG Recycler:98 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+12:05:51,672 DEBUG Recycler:99 - -Dio.netty.recycler.linkCapacity: 16
+12:05:51,672 DEBUG Recycler:100 - -Dio.netty.recycler.ratio: 8
+12:05:54,783 DEBUG ThreadLocalRandom:212 - -Dio.netty.initialSeedUniquifier: 0xee9c0ac9b2b66a00
+12:05:54,826 DEBUG devpinoyLogger:44 - Launching Chrome
+12:06:58,401 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+12:06:58,401 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+12:06:58,405 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+12:06:58,409 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+12:06:58,409 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/User/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
